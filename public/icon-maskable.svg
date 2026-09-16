@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGradMask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D5A43" />
+      <stop offset="100%" stop-color="#1E3F2E" />
+    </linearGradient>
+    <linearGradient id="panGradMask" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="100%" stop-color="#E8E2D9" />
+    </linearGradient>
+  </defs>
+
+  <!-- Solid Full-Bleed Background for Maskable Icon -->
+  <rect width="512" height="512" fill="url(#bgGradMask)" />
+
+  <!-- Inner Padded Content (Safe Zone is within radius 180) -->
+  <g transform="translate(51.2, 51.2) scale(0.8)">
+    <!-- Outer Ring / Roulette Accent Dots -->
+    <circle cx="256" cy="256" r="195" fill="none" stroke="#A3B899" stroke-width="4" stroke-dasharray="8 14" opacity="0.6" />
+
+    <!-- Skillet Body -->
+    <circle cx="256" cy="256" r="140" fill="url(#panGradMask)" stroke="#E2DCD2" stroke-width="6" />
+    <circle cx="256" cy="256" r="122" fill="#F4EFE6" />
+
+    <!-- Cooking Pan Handle -->
+    <path d="M 365 330 L 440 395 C 448 402, 442 414, 432 422 C 424 430, 412 434, 405 428 L 332 365 Z" fill="#D96B43" />
+    <circle cx="420" cy="410" r="7" fill="#FAF7F2" />
+
+    <!-- Botanical Sprout -->
+    <path d="M 256 195 C 220 185 205 215 220 238 C 240 260 256 220 256 195 Z" fill="#2D5A43" />
+    <path d="M 256 195 C 292 185 307 215 292 238 C 272 260 256 220 256 195 Z" fill="#4B7C60" />
+    <path d="M 256 195 L 256 265" stroke="#A3B899" stroke-width="3.5" stroke-linecap="round" />
+
+    <!-- Sparkles -->
+    <path d="M 200 270 Q 200 282 188 282 Q 200 282 200 294 Q 200 282 212 282 Q 200 282 200 270 Z" fill="#D96B43" />
+    <path d="M 305 205 Q 305 215 295 215 Q 305 215 305 225 Q 305 215 315 215 Q 305 215 305 205 Z" fill="#D96B43" />
+    <path d="M 256 288 Q 256 295 249 295 Q 256 295 256 302 Q 256 295 263 295 Q 256 295 256 288 Z" fill="#2D5A43" />
+  </g>
+</svg>

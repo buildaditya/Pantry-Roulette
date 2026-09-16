@@ -1,0 +1,6 @@
+{
+  "name": "Pantry Roulette",
+  "description": "Turn your pantry ingredients into delicious recipes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
